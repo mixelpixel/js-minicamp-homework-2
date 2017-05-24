@@ -17,7 +17,7 @@
 
 
 2. Install git.  https://git-scm.com/downloads
-- Done
+		- Done
 
 
 3. Fork and clone this repo.  When you need to commit use the following commands.
@@ -28,15 +28,18 @@
 	* git commit -m "your commit message"
 	* git push origin master
 
-NOTE: instead of forking and cloning, I forked and submoduled.  
-Per: https://git-scm.com/book/en/v2/Git-Tools-Submodules  
+		- NOTE: instead of forking and cloning, I forked and submoduled.  
+		- Per: https://git-scm.com/book/en/v2/Git-Tools-Submodules  
 
 4. Make the tests pass!
-
-
+	- `npm install`
+		- Struggling with prime numbers...
 
 
 #### Congratulations on finishing Homework #2!
+
+<details><summary> Click here for more about Lambda School</summary><p>
+
 Apply to our full-time or part-time immersive program to learn cutting edge technologies that are used by top technology companies around the world.
 
 Our part-time and full-time courses are 13 intense weeks of focused study on the most relevant technologies.  
@@ -44,3 +47,5 @@ Our part-time and full-time courses are 13 intense weeks of focused study on the
 Class sizes are small to ensure that each student gets individual attention from our world class instructors to help them succeed.  We also provide career support both during and after the course to help you succeed.  We are committed to your success.
 
 For more information visit: https://www.lambdaschool.com
+
+</p></details>
