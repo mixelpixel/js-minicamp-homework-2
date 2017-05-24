@@ -16,13 +16,13 @@
 			- Only True && True === True
 		- **||** has the same logical operation as **or** (inclusive) such that
 			- Only False || False === False
-		- **!** has the same logical operation as **not** such that
+		- &nbsp;**!** has the same logical operation as **not** such that
 			- !True === False && !False === True
 	* Array
 		- mutable data structure, ordered list of items, position starting at 0 to array (length -1)
-		- [ [0], [1], [2], ... [array length - 1] ]
+		- **[** [0], [1], [2], ... [array length - 1] **]**
 		- or, if n = array length] where "length" = total number of items in array (or "list"), then:
-		- [ [0], ... [n - 1 ]
+		- **[** [0], ... [n - 1 ] **]**
 		- array positions may be any type: ints, strings, floats, etc. including nesting arrays.
 	* git
 		- version control management software
