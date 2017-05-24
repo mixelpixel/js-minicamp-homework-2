@@ -5,11 +5,25 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 
 	* for loop
-		- an initialized variable is modified until a condition is met and the loop terminated
+		- an initialized state is modified until a condition is met and the loop terminated:
+		```
+		for (initialization prior to loop; test condition controls loop; incremental step after loop body action)  
+			action;
+		```
 	* && || !
-		- logical operator: and, inclusive or, not
+		- logical operators
+		- **&&** has the same logical operation as **and** such that
+			- Only True && True === True
+		- **||** has the same logical operation as **or** (inclusive) such that
+			- Only False || False === False
+		- **!** has the same logical operation as **not** such that
+			- !True === False && !False === True
 	* Array
-		- mutable data structure
+		- mutable data structure, ordered list of items, position starting at 0 to array (length -1)
+		- [ [0], [1], [2], ... [array length - 1] ]
+		- or, if n = array length] where "length" = total number of items in array (or "list"), then:
+		- [ [0], ... [n - 1 ]
+		- array positions may be any type: ints, strings, floats, etc. including nesting arrays.
 	* git
 		- version control management software
 	* GitHub
