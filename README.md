@@ -3,25 +3,33 @@
 ## Instructions
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
-		
+
 	* for loop
+	- an initialized variable is modified until a condition is met and the loop terminated
 	* && || !
+	- logical operator: and, inclusive or, not
 	* Array
+	- mutable data structure
 	* git
+	- version control management software
 	* GitHub
+	- online hosting site for git repositories
 
 
 2. Install git.  https://git-scm.com/downloads
+- Done
 
 
 3. Fork and clone this repo.  When you need to commit use the following commands.
-		
+
 	* git status
 	* git add --all
 	* git status
 	* git commit -m "your commit message"
 	* git push origin master
 
+NOTE: instead of forking and cloning, I forked and submoduled.  
+Per: https://git-scm.com/book/en/v2/Git-Tools-Submodules  
 
 4. Make the tests pass!
 
