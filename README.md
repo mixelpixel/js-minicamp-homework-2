@@ -14,11 +14,11 @@
 		- version control management software
 	* GitHub
 		- online hosting site for git repositories
-
+		- **DONE**
 
 2. Install git.  https://git-scm.com/downloads
-		- Done
-
+	- Already installed
+		- **DONE**
 
 3. Fork and clone this repo.  When you need to commit use the following commands.
 
@@ -30,10 +30,11 @@
 
 		- NOTE: instead of forking and cloning, I forked and submoduled.  
 		- Per: https://git-scm.com/book/en/v2/Git-Tools-Submodules  
+		- **DONE**
 
 4. Make the tests pass!
 	- `npm install`
-		- Struggling with prime numbers...
+		- **Struggling with prime numbers...**
 
 
 #### Congratulations on finishing Homework #2!
