@@ -5,15 +5,15 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 
 	* for loop
-	- an initialized variable is modified until a condition is met and the loop terminated
+		- an initialized variable is modified until a condition is met and the loop terminated
 	* && || !
-	- logical operator: and, inclusive or, not
+		- logical operator: and, inclusive or, not
 	* Array
-	- mutable data structure
+		- mutable data structure
 	* git
-	- version control management software
+		- version control management software
 	* GitHub
-	- online hosting site for git repositories
+		- online hosting site for git repositories
 
 
 2. Install git.  https://git-scm.com/downloads
