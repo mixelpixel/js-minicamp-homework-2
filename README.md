@@ -16,7 +16,7 @@
 			- Only True && True === True
 		- **||** has the same logical operation as **or** (inclusive) such that
 			- Only False || False === False
-		- &nbsp;**!** has the same logical operation as **not** such that
+		- **!**&nbsp; has the same logical operation as **not** such that
 			- !True === False && !False === True
 	* Array
 		- mutable data structure, ordered list of items, position starting at 0 to array (length -1)
