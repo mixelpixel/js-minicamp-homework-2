@@ -1,4 +1,5 @@
 # Homework #2
+NOTE: after forking the lesson GitHub repository, I set this clone up as a "submodule" in my Lambda School JavaScript miniBootCamp (instead of "nesting" the cloned homework repository within my miniBootCamp repository.)
 
 ## Instructions
 ---
@@ -48,7 +49,7 @@
 
 4. Make the tests pass!
 	- `npm install`
-		- **Struggling with prime numbers...**
+		- **DONE**
 
 
 #### Congratulations on finishing Homework #2!
