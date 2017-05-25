@@ -166,13 +166,12 @@ function largestNumber(numbers) {
   //numbers is an array of integers
   //return the largest integer
   var big = 0;
-  var biggest = 0;
+
   for (var i = 0; i < numbers.length; i++) {
     if (numbers[i] > big) {big = numbers[i];
-      if (big > biggest) {biggest = big;}
     }
   }
-  return biggest;
+  return big;
 }
 
 //Do not modify code below this line.
