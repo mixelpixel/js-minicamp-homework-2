@@ -5,7 +5,8 @@ function getBiggest(x, y) {
   //if they are the same return either one
   if (x === y) {return x || y;}
   else if (x > y) {return x;}
-  return y;
+  else return y;
+  // return Math.max(x, y);
 }
 
 function greeting(language) {
