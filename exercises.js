@@ -69,16 +69,29 @@ function isPrime(num) {
   //hint2: you can solve this using a for loop
   //note: 0 and 1 are NOT considered prime numbers
 
-  if (num < 2) {return false;}
-  else if (num === 2) {return true;}
-  else if (num % 2 === 0) {return false;}
-  else if (num >= 3) {
-    for (var i = 2; i < (num * .5); i++) {
-      if (num % i === 0) {
-        return false;
-      }
+  // if (num < 2) {return false;}
+  // else if (num === 2) {return true;}
+  // else if (num % 2 === 0) {return false;}
+  // else if (num >= 3) {
+  //   for (var i = 2; i < (num * .5); i++) {
+  //     if (num % i === 0) {
+  //       return false;
+  //     }
+  //   }
+  // } return true;
+
+  if (num < 2) {
+    return false;
+  }
+
+  for (var i = 2; i <= num; i++) {
+    if ( num % i == 0 && i != num) {
+      return false;
+    } else {
+      return true;
     }
-  } return true;
+  }
+
 
 }
 
